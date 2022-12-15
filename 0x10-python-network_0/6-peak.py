@@ -9,11 +9,10 @@ def aux(list_of_integers, first, last):
             return first
         else:
             return last
-    middle = first + x / 2
+    middle = (first + x) / 2
     if list_of_integers[middle] < list_of_integers[middle + 1]:
         return aux(list_of_integers, middle, last)
     return aux(list_of_integers, first, middle)
-
 
 def find_peak(list_of_integers):
     """ function that finds a peak in a list of unsorted integers """
