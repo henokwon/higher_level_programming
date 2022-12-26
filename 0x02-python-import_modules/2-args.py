@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 if __name == "__main__":
     import sys
     argv = sys.argv[1:]
